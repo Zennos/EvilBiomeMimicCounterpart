@@ -1,0 +1,3 @@
+displayName = Evil Biome Mimic Counterpart
+author = Edoan
+version = 1.0
