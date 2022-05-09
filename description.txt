@@ -5,3 +5,5 @@ All you have to do is place the Key of Night inside a chest while in the evil bi
 So to spawn a crimson mimic in a corrupt world, you need to create an artificial crimson biome and place the Key of Night inside a chest while in the artificial crimson biome.
 
 You can create an artificial counterpart evil biome by buying the seeds of the biome with the Dryad while in a Graveyard.
+
+Github: https://github.com/Zennos/EvilBiomeMimicCounterpart
