@@ -1,4 +1,4 @@
 displayName = Evil Biome Mimic Counterpart
 author = Edoan
-version = 1.0
+version = 1.0.2
 homepage = https://github.com/Zennos/EvilBiomeMimicCounterpart

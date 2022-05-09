@@ -104,7 +104,8 @@ namespace EvilBiomeMimicCounterpart
 						num7 = Terraria.ID.NPCID.BigMimicCorruption;
 					}
 				}
-				int num8 = Terraria.NPC.NewNPC(user.GetNPCSource_TileInteraction(x, y), x * 16 + 16, y * 16 + 32, num7);
+
+				int num8 = Terraria.NPC.NewNPC(user.GetSource_TileInteraction(x, y), x * 16 + 16, y * 16 + 32, num7);
 				Terraria.Main.npc[num8].whoAmI = num8;
 				Terraria.NetMessage.SendData(Terraria.ID.MessageID.SyncNPC, -1, -1, null, num8);
 				Terraria.Main.npc[num8].BigMimicSpawnSmoke();
