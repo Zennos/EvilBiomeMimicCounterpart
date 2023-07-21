@@ -6,10 +6,10 @@ namespace EvilBiomeMimicCounterpart
 	{
         public override void Load()
         {
-            On.Terraria.NPC.BigMimicSummonCheck += NPC_BigMimicSummonCheck;
+            Terraria.On_NPC.BigMimicSummonCheck += NPC_BigMimicSummonCheck;
         }
 
-        private bool NPC_BigMimicSummonCheck(On.Terraria.NPC.orig_BigMimicSummonCheck orig, int x, int y, Terraria.Player user)
+        private bool NPC_BigMimicSummonCheck(Terraria.On_NPC.orig_BigMimicSummonCheck orig, int x, int y, Terraria.Player user)
         {
 			if (Terraria.Main.netMode == Terraria.ID.NetmodeID.MultiplayerClient || !Terraria.Main.hardMode)
 			{
